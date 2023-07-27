@@ -18,7 +18,7 @@ st.set_page_config(
 ######################
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style.css"
-resume_file = current_dir / "assets" / "Job.pdf"
+resume_file = current_dir / "assets" / "Resume.pdf"
 profile_pic = current_dir / "assets" / "dp.png"
 ######################
 
@@ -97,15 +97,15 @@ st.markdown('''## Education''')
 txt('**Data Analytics Program**, Durham College, Oshawa',
 '2023-2023')
 st.markdown('''
-GPA: `3.2` 
-**Relevant Coursework**: `Data Collection,  DBMS,  EDA,  Tableau,  Dashboard, SQL` 
+- GPA: `3.2` 
+- **Relevant Coursework**: `Data Collection,  DBMS,  EDA,  Tableau,  Dashboard, SQL` 
 ''')
 
 txt('**Applied AI Solutions Program**, George Brown College, Toronto',
 '2022-2022')
 st.markdown('''
-GPA: `3.6` 
-**Relevant Coursework**: `Machine Learning,  Deep Learning,  NLP,  Python` 
+- GPA: `3.6` (Dean's Honour List)
+- **Relevant Coursework**: `Machine Learning,  Deep Learning,  NLP,  Python` 
 ''')
 #####################
 
@@ -162,5 +162,7 @@ txt2('LinkedIn', 'https://www.linkedin.com/in/shreshthrajpal/')
 txt2('GitHub', 'https://github.com/shreshthr')
 txt2('Kaggle', 'https://www.kaggle.com/shreshthrajpal')
 #####################
+
+
 
 
