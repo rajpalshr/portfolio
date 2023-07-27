@@ -8,6 +8,14 @@ import warnings
 warnings.filterwarnings('ignore')
 ######################
 
+# Load custom CSS file - Github
+######################
+custom_css = '''
+<link rel="stylesheet" href="./custom.css">
+'''
+st.markdown(custom_css, unsafe_allow_html=True)
+######################
+
 
 # Page
 ######################
@@ -35,7 +43,7 @@ engine = create_engine('sqlite:///:memory:')
 df.to_sql('movies', con=engine, index=False, if_exists='replace')
 ######################
 
-# For each query
+
 
 # Query 0
 ######################
