@@ -28,7 +28,8 @@ st.set_page_config(
 
 # Image, Title
 ######################
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_movies.png', use_column_width=True)
+
+st.image('./assets/eda/eda_movies.png', use_column_width=True)
 st.title('Exploratory Data Analysis')
 ######################
 
@@ -50,7 +51,7 @@ st.write("Shape:", df.shape)
 
 code_snippet = "df.info()"
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_info.png', width=400)
+st.image('./assets/eda/eda_info.png', width=400)
 ######################
 
 # Transformation and Construction
@@ -130,7 +131,7 @@ st.write("Duplicated:", df.duplicated().sum())
 
 code_snippet = "df.isnull().sum()"
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_null.png', width=300)
+st.image('./assets/eda/eda_null.png', width=300)
 ######################
 
 # Analysis - Features
@@ -150,7 +151,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_release_year.png')
+st.image('./assets/eda/eda_release_year.png')
 
 
 
@@ -169,7 +170,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_rating.png')
+st.image('./assets/eda/eda_rating.png')
 
 
 
@@ -189,7 +190,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda//eda_runtime.png')
+st.image('./assets/eda/eda_runtime.png')
 
 
 
@@ -209,7 +210,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_budget.png')
+st.image('./assets/eda/eda_budget.png')
 
 
 st.info('''
@@ -228,7 +229,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_revenue.png')
+st.image('./assets/eda/eda_revenue.png')
 
 
 st.info('''
@@ -246,7 +247,7 @@ fig.update_layout(bargap=0.1)
 fig.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_budget_revenue.png')
+st.image('./assets/eda/eda_budget_revenue.png')
 
  
 st.info('''
@@ -268,7 +269,7 @@ plt.xticks(rotation=45)
 plt.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_release_month.png')
+st.image('./assets/eda/eda_release_month.png')
 
 
 
@@ -291,7 +292,7 @@ plt.xticks(rotation=45)
 plt.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_release_day.png')
+st.image('./assets/eda/eda_release_day.png')
 
 
 
@@ -317,7 +318,7 @@ plt.ylabel('Genre')
 plt.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_genre.png')
+st.image('./assets/eda/eda_genre.png')
 
 
 
@@ -339,7 +340,7 @@ plt.title('Top 10 Directors with the Maximum Number of Movies')
 plt.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_director.png')
+st.image('./assets/eda/eda_director.png')
 
 
 
@@ -362,7 +363,7 @@ plt.title('Top 10 Actors with the Maximum Number of Movies')
 plt.show()
 """
 st.code(code_snippet, language='python')
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_actor.png')
+st.image('./assets/eda/eda_actor.png')
 ######################
 
 
