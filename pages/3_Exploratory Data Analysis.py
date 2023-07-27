@@ -18,6 +18,14 @@ matplotlib.rcParams['figure.figsize'] = (10, 6)
 matplotlib.rcParams['figure.facecolor'] = '#00000000'
 ######################
 
+# Load custom CSS file - Github
+######################
+custom_css = '''
+<link rel="stylesheet" href="./custom.css">
+'''
+st.markdown(custom_css, unsafe_allow_html=True)
+######################
+
 
 # Page
 ######################
