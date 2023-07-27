@@ -19,7 +19,7 @@ st.set_page_config(
 
 # Image, Title
 ######################
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/sql/sql_movies.png', use_column_width=True)
+st.image('./assets/sql/sql_movies.png', use_column_width=True)
 st.title('Analysis Using SQL')
 ######################
 
