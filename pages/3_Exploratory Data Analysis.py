@@ -1,5 +1,5 @@
 
-# Libraries
+# Libraries 
 ######################
 import streamlit as st
 import pandas as pd
@@ -16,14 +16,6 @@ sns.set_style('darkgrid')
 matplotlib.rcParams['font.size'] = 14
 matplotlib.rcParams['figure.figsize'] = (10, 6)
 matplotlib.rcParams['figure.facecolor'] = '#00000000'
-######################
-
-# Load custom CSS file - Github
-######################
-custom_css = '''
-<link rel="stylesheet" href="./custom.css">
-'''
-st.markdown(custom_css, unsafe_allow_html=True)
 ######################
 
 
@@ -475,3 +467,15 @@ st.code(code_snippet, language='python')
 average_revenue = df['revenue'].mean()
 st.write('**Average Revenue:** ', average_revenue)
 ######################
+
+
+# Header, Footer
+######################
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
