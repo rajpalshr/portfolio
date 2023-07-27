@@ -8,12 +8,16 @@ import warnings
 warnings.filterwarnings('ignore')
 ######################
 
-# Load custom CSS file - Github
+# Header, Footer
 ######################
-custom_css = '''
-<link rel="stylesheet" href="./custom.css">
-'''
-st.markdown(custom_css, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 ######################
 
 
