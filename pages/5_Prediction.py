@@ -105,7 +105,7 @@ with st.expander("Show Code"):
 
     code_snippet = "df.isnull().sum()"
     st.code(code_snippet, language='python')
-    st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/pred/pred_null.png', width=300)
+    st.image('./assets/pred/pred_null.png', width=300)
 
     code_snippet = """
     # Encode
