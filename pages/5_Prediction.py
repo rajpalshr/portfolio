@@ -34,7 +34,7 @@ st.set_page_config(
 
 # Image, Title
 ######################
-st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/eda/eda_movies.png', use_column_width=True)
+st.image('./assets/eda/eda_movies.png', use_column_width=True)
 st.title('Movie Revenue Prediction')
 ######################
 
