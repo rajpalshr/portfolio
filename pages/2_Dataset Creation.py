@@ -15,15 +15,6 @@ st.set_page_config(
 ######################
 
 
-# Load custom CSS file - Github
-######################
-custom_css = '''
-<link rel="stylesheet" href="./custom.css">
-'''
-st.markdown(custom_css, unsafe_allow_html=True)
-######################
-
-
 # Title
 ######################
 st.title('Dataset Creation')
@@ -137,3 +128,14 @@ df.to_csv('movies.csv')
 """
 st.code(code_snippet, language='python')
 ######################
+
+# Header, Footer
+######################
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
