@@ -7,6 +7,14 @@ from PIL import Image
 from pathlib import Path
 ######################
 
+# Load custom CSS file - Github
+######################
+custom_css = '''
+<link rel="stylesheet" href="./custom.css">
+'''
+st.markdown(custom_css, unsafe_allow_html=True)
+######################
+
 # Page
 ######################
 st.set_page_config(
