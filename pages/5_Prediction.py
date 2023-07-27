@@ -25,6 +25,14 @@ from sklearn.pipeline import Pipeline
 ######################
 
 
+
+# Page
+######################
+st.set_page_config(
+    page_title="Movie Revenue Prediction"
+)
+######################
+
 # Header, Footer
 ######################
 hide_st_style = """
@@ -37,12 +45,6 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 ######################
 
-# Page
-######################
-st.set_page_config(
-    page_title="Movie Revenue Prediction"
-)
-######################
 
 # Image, Title
 ######################
