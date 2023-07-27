@@ -25,6 +25,14 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import Pipeline
 ######################
 
+# Load custom CSS file - Github
+######################
+custom_css = '''
+<link rel="stylesheet" href="./custom.css">
+'''
+st.markdown(custom_css, unsafe_allow_html=True)
+######################
+
 
 # Page
 ######################
@@ -167,5 +175,5 @@ with st.expander("Show Code"):
 
     code_snippet = "recommend('GoodFellas')"
     st.code(code_snippet, language='python')
-    st.image('./assets/rec/rec_out.png', width=300)
+    st.image('/Users/shreshthrajpal/Desktop/Portfolio/assets/rec/rec_out.png', width=300)
 ######################
