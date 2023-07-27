@@ -8,6 +8,15 @@ import warnings
 warnings.filterwarnings('ignore')
 ######################
 
+
+# Page
+######################
+st.set_page_config(
+    page_title="Analysis Using SQL"
+)
+######################
+
+
 # Header, Footer
 ######################
 hide_st_style = """
@@ -20,13 +29,6 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 ######################
 
-
-# Page
-######################
-st.set_page_config(
-    page_title="Analysis Using SQL"
-)
-######################
 
 
 # Image, Title
