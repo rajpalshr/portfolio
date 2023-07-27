@@ -1,3 +1,4 @@
+
 # Libraries
 ######################
 import streamlit as st
@@ -23,6 +24,14 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import Pipeline
 ######################
 
+
+# Load custom CSS file - Github
+######################
+custom_css = '''
+<link rel="stylesheet" href="./custom.css">
+'''
+st.markdown(custom_css, unsafe_allow_html=True)
+######################
 
 # Page
 ######################
