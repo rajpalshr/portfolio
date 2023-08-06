@@ -97,7 +97,7 @@ st.markdown('''## Education''')
 txt('**Data Analytics Program**, Durham College, Oshawa',
 '2023-2023')
 st.markdown('''
-- GPA: `3.2` 
+- GPA: `3.4` 
 - **Relevant Coursework**: `Data Collection,  DBMS,  EDA,  Tableau,  Dashboard, SQL` 
 ''')
 
@@ -120,10 +120,10 @@ txt('**Data Analyst Intern**, Ernst & Young, India',
 '2021-2021')
 
 st.markdown('''
-• Ensured the accuracy and consistency of financial data. \n
-• Created key columns for line item classification. \n
-• Divided the data into GSTR1 Processing Reversed and re-raised entry cases to remove errors. \n
-• Peformed various operations on the data to prepare it for DigiGST format. \n
+• Developed and implemented key column classification for line item categorization \n
+• Segmented the data into GSTR1 Processing, reversed and re-raised entry cases to remove errors \n
+• Executed comprehensive data operations to prepare it for DigiGST \n
+• Collaborated with the team members to interpret data findings \n
 ''')
 #####################
             
